@@ -1,0 +1,50 @@
+.container {
+    color: red;
+}
+
+/* окрасятся все элементы class="container" (1, 2, 3) */
+.div {
+    color: red;
+}
+
+/* не окрасится никакой элемент */
+.container>span {
+    color: red;
+}
+
+/* окрасится элемент span, родителем для которого является class="container" (3) */
+.container>span.block {
+    color: red;
+}
+
+/* не окрасится никакой элемент */
+.container#main {
+    color: red;
+}
+
+/* не окрасится никакой элемент */
+.container>block {
+    color: red;
+}
+
+/* не окрасится никакой элемент */
+section div span {
+    color: red;
+}
+
+/* не окрасится никакой элемент */
+#main div.block {
+    color: red;
+}
+
+/* окрасится элемент div class="block", который имеет id="main" (1) */
+.container {
+    color: red;
+}
+
+/* окрасятся все элементы class="container" (1, 2, 3)*/
+section.container>span {
+    color: red
+}
+
+/* окрасится элемент span, родителем для которого является class="container", который входит в section (3) */

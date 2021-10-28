@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Запись на курсы</h1>
+    <hr>
+    <div>
+        <form class="lable" action="action.php" enctype="multipart/form-data" method="post">
+            <lable for="" class="">Имя</lable> <br>
+            <input type="text" name="username"> <br>
+            <br>
+            <label for="">Язык программирования:</label>
+            <br>
+            <label for="">
+                <input type="radio" id="radioButton1" name="lang">С++
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" id="radioButton2" name="lang">PHP
+            </label>
+            <br>
+            <label for="">
+                <input type="radio" id="radioButton3" name="lang">Python
+            </label>
+            <br>
+            <br>
+            <label>Дополнительная информация:</label>
+            <br>
+            <textarea name="info" id="" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+            <label for="">Секретное слово:</label>
+            <br><input type="password">
+            <br>
+            <br>
+            <button class="post">Отправить</button>
+            <label for=""></label>
+            <button type="reset">Очистить</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

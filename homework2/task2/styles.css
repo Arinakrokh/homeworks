@@ -1,0 +1,53 @@
+div {
+    border-color: green
+}
+
+/* окрашивает все элементы блока div (class="block" class="row" */
+
+div.block {
+    border-color: green
+}
+
+/* окрашивает элементы class="block" */
+
+.block {
+    border-color: green
+}
+/* окрашивает элементы class="block" */
+
+div#home {
+    border-color: green
+}
+/* окрашивает элементы, объединенные id="home" */
+div#home.block {
+    border-color: green
+}
+/* окрашивает элементы, объединенные id="home" class="block" */
+.row {
+    border-color: green
+}
+/* окрашивает элементы class="row" */
+div.block.row {
+    border-color: green
+}
+/* окрашивает элементы class="row", которые входят в div class="block" */
+#home .row {
+    border-color: green
+}
+/* окрашивает элементы id="home", которые имеют class="row" */
+#home div span {
+    border-color: green
+}
+/* окрашивает элементы div span, которые имеют id="home" */
+.block>div {
+    border-color: green
+}
+/* окрашивает все div, родителем для которых является class="block" */
+#home>.row {
+    border-color: green
+}
+/* окрашивает все class="row", родителем для ккоторых является id="home" */
+#home>.div {
+    border-color: green
+}
+/* окрашивает все div, родителем для которых является id="home" */
