@@ -1,0 +1,21 @@
+.red_block{
+    width: 30px;
+    height: 30px;
+    background: red;
+    z-index: 0;
+}.blue_block{
+    width: 30px;
+    height: 30px;
+    background: blue;
+    z-index: -1;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.green_block{
+    width: 30px;
+    height: 30px;
+    background: green;
+    z-index: 2;
+    margin-left: 15px;
+    margin-top: -45px;
+}

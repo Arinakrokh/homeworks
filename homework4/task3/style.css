@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:url(images/img1.jpg);
+    width: 100%;
+}
+.header{
+    background: yellowgreen;
+    width: 90%;
+    height: 15%;
+    margin: 0 5%;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5%;
+    opacity: 1;
+    color: white;
+}
+.links{
+    background: black;
+    opacity: 0.5;
+    position: fixed;
+    margin: 20% 0;
+    width: 10%;
+    height: 600px;
+}
+A{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+A:visited{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellowgreen;
+}
+.text{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 80%;
+    float: right;
+    margin: 5%;
+    font-family: 'Mukta', sans-serif;
+}
+.list{
+    font-size: 20px;
+    color: white;
+    margin: 0 20%;   
+}
+.footer{
+    width: 90%;
+    height: 15%;
+    margin: 0 5%;
+    background: yellowgreen;
+    border-radius: 5%;
+    
+}
+.f_text{
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+}
